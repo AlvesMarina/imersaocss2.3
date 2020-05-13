@@ -1,0 +1,93 @@
+/* reset do css*/ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://lh3.googleusercontent.com/G0M4Q3akgzhMtI73viXoHtn-dAVmwQAr5ypF84TVIdaSHiZnyu2XbmhJYVb9aPDvTCiOGfgYhrN8p_hiboNNCRZRrIlSrHha5nUUdBfOUL2NVYEfjdEgBD9AmBshxPejM0_T9SSPmWHuQzX7F41sg81KeK9pNix9jv5YS2WH1sPfiTqzDH3btYXqQanr3tN-8215oyBxpXCJqfZfaHudSi3nehMrHvEQaND34KBZWzzIb-Z7fQsdwK9zFr82rxOmhZqajimn-r446bItpv7NNw2tYzsd9ZxM8gUd3XtVBFPKeDhRa1CSG0FUR2tH75DYd5GihH7rDbDEM_VCToqid8n2v8e81MEfnZIM1Uux9Prt2iWdTa1YvGN8LUyqTLZe603eOMI6fr6IzT2_hX6u45sUfcev8dbK2dMpDuCuIjy_5a8aFiTQnr4cj3rf7jACHLbop-iYcUlTvw2Aj5p6Ndv2WrHxmtH3T8_UO9dYTbJqQcP1htdofobYi9vYiS1x1nMgzFPaGx0xJar4_ahriAVmNYFvRBgvAnpNleSLkM4LeR1tOrStS-qbZU-lGNUaaB84gfiWHMYwlZ_y1L4kqYyM24Pq_vXqOVmkzpZGmQixm6aIOqz8VpfBlZf0bfgbHtHWaGFDPDd1jPyemMj4UQKft4CqNRjl2zMdsJFKiwq0qBId77uNEHpzZ32O3g=w686-h457-no?authuser=0");
+    background-size: auto 100vh;
+    font-family: arial;
+    height:100vh;
+    font-size: 12px;
+  }
+/* media é como if, se a tela tiver pelo menos 400px, carregará o estilo */
+@media (min-width: 320px) {
+  body {
+    font-size: 10px;
+  }  
+}
+/*breakpoint*/
+@media (min-width: 375px) {
+  body {
+    font-size: 14px;
+  }  
+}
+@media (min-width: 600px) {
+  body {
+    font-size: 18px;
+  }
+  .site-title{
+    background-image: url("https://media0.giphy.com/media/xT39CTrFW4nHLdBPpu/200w.webp?cid=ecf05e47f0710ba5ab1c918c2130e82223e57b1febae7108&rid=200w.webp");
+    background-size: auto 100vh;
+    
+    padding: 20px;
+  }  
+}
+@media(min-width: 1200px){
+  body{
+    font-size: 20px;
+  }
+}
+
+  header{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu{
+    background: black;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+  }
+  
+  .menu ul{
+    display: flex;
+    justify-content: space-around;
+  }
+  .menu li{
+    list-style: none;
+  }
+  .menu a{
+    display: block;
+    padding: 10px 20px;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+  .site-subtitle,
+  .site-title{
+    color: white;
+    text-align: center;
+    }
+    .site-title{
+      font-size: 4em;
+    }
+  .site-subtitle{
+    font-style: italic;
+    font-size: 2em;
+  }
+  .img-portfolio{
+    height: 100px;
+    width: 100px;
+  }
+  .portifolio{
+   color: white;
+  }
